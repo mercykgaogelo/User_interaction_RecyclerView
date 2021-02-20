@@ -21,6 +21,7 @@ import java.util.LinkedList;
 public class MainActivity extends AppCompatActivity {
 
 private final LinkedList<String> mWordsList = new LinkedList<>();
+//you can use ArrayList instate of LinkedList
     private RecyclerView mRecyclerView;
     private WordListAdapter mAdapter;
 
